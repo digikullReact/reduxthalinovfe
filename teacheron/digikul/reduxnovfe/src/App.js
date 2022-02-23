@@ -17,9 +17,9 @@ function App() {
     <div className='row' style={{marginTop:"40px"}}> 
 
       {
-        productData.map(ele=>(
+        productData.map((ele,i)=>(
 
-          <Product data={ele}/>
+          <Product key={i} data={ele}/>
 
         ))
       }

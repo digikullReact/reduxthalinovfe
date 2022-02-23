@@ -59,7 +59,7 @@ export const counterSlice = createSlice({
    
   
     addTothali: (state, action) => {
-      debugger;
+   
       state.thali.push(action.payload);
     },
   },
